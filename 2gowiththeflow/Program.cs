@@ -10,6 +10,13 @@ namespace _2gowiththeflow
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Lamp doesn't work.");
+            Console.WriteLine("Is lamp pluged in?");
+
+            string answer = Console.ReadLine();
+
+            if (answer == "yes")
+
         }
     }
 }
