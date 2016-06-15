@@ -16,7 +16,28 @@ namespace _2gowiththeflow
             string answer = Console.ReadLine();
 
             if (answer == "yes")
+            {
+                Console.WriteLine("Is the bulb burned out?");
+                answer = Console.ReadLine();
+                if (answer == "yes")
+                {
+                    Console.WriteLine("Replace bulb.");
+                }
+                else
+                {
+                    Console.WriteLine("Repair Lamp.");
+                }
+            }
 
+            else
+            {
+                Console.WriteLine("Plug in lamp.");
+            }
+
+
+
+
+            Console.ReadKey();
         }
     }
 }
